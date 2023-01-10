@@ -1,0 +1,73 @@
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(
+        ./choco.jpg
+    );
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.navbar-menu a{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 60px;
+}
+
+.navbar-menu a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 0 70px;
+    width:100%;
+    text-align: center;
+}
+
+.description h5{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.description p{
+    font-size: 14px;
+    font-family: 'Greate Vibes',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 25px;
+  
+}
+
+

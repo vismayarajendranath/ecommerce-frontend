@@ -1,0 +1,52 @@
+
+<header id="hdr">
+
+
+    <nav  id="nav" class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>Chocolate on top</a>
+            <form action="">
+                <input  (keyup)="search($event)" style="width: 200px; height: 45px; " class="form-control p-2 mb-3" type="text" placeholder="search product">
+            </form>
+            <div class="navbar-menu">
+                <a class="active" href="#home">home</a>
+                <a href="#cardProduct" >product</a>
+                <a href="#aboutcc">about</a>
+                <button class="btn btn-outline-light" type="submit" routerLink="cart">
+                    <i class="bi-cart-fill me-1"></i>
+                    Cart
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">{{totalItem}}</span>
+            
+                </button>
+                
+        
+
+            </div>
+
+           
+
+        </div>
+        
+    </nav>
+    
+    <!-- <button class="btn btn-outline-light" type="submit" routerLink="cart">
+        <i class="bi-cart-fill me-1"></i>
+        Cart
+        <span class="badge bg-dark text-white ms-1 rounded-pill">{{totalItem}}</span>
+
+    </button> -->
+    <div class="description">
+        <h5>Order For Best chocolates</h5>
+    <p>Premium Quality Chocolates Are Available Order Now</p>
+    
+    </div>
+    
+
+</header>
+
+
+
+<!-- header section ends-->
+
+<!-- search form  -->
+

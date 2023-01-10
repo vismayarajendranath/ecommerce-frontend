@@ -1,0 +1,79 @@
+#imgg{
+    margin-top: 50px;
+}
+
+#btn{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    border: 2px  solid peru;
+    background: transparent;
+    color: azure;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: peru;
+    font-size: 20px;
+
+   
+    
+}
+
+/* #xx{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQquvOMSx8fVWwwo0I775VuCjmdIWNSFObD-k-el3cU80QYKYMVd2GDKsBHabBtMglOfiM&usqp=CAU');
+} */
+
+#bt{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    border: 2px  solid #fff;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 20px;
+    
+
+}
+
+#bb{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    border: 2px  solid peru;
+    background: transparent;
+    color: azure;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: peru;
+    font-size: 20px;
+
+}
+button{
+    margin-left: 20px;
+}
+
+h5{
+    font-size: 30px;
+}
+#vv{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    border: 2px  solid #fff;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 45px;
+    
+}
+
+.collapse{
+    border: 2px solid #fff;
+}
+
+

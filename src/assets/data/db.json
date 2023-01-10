@@ -1,0 +1,209 @@
+
+   [
+    
+    {
+      "id": 1,
+      "name": "Cadbury Chocolates",
+      "photograph": "https://i.postimg.cc/J4WF9FcD/637483728667028844-Eoytdtn-XYAEl4p-H-1.jpg",
+      "about":"Cadbury Dairy milk chocolates are some of the best chocolates in India and the world’s largest brands of chocolates. The whole process of manufacturing these chocolates is done from their factory in India using locally harvested cocoa. This chocolate company in India is also known for a variety of other chocolates and treats.",
+      "price":"150"
+    },
+
+
+
+      {
+        "id": 2,
+        "name": "Bournville",
+        "price": "65",
+        "photograph":"https://i.postimg.cc/657tFb9R/e43ff59a-49e1-4034-a5eb-8c6d595ddac6-CR0-0-350-350-PT0-SX220-V1.jpg"
+        
+      },
+      {
+
+        "id": 3,
+      "name": "Dairy Milk",
+      "price": "75",
+      "photograph":"https://i.postimg.cc/9XsZ6SdH/dairy-milk-silk-fruit-and-nut-chocolate-bar-137-g-pack-of-3-original-imafzregvacpegga.webp"
+      
+    },
+    
+    {
+      "id": 4,
+
+      "name": "Perk",
+      "price": "45",
+      "photograph":"https://i.postimg.cc/g2mD7Qpk/images.jpg"
+      
+    },
+  
+    
+    {
+    "id": 5,
+      "name": "Nestle Chocolates",
+      "photograph": "https://i.postimg.cc/dV7ZK59d/40018532-7-1-nestle-chocolate-classic.webp",
+      "about":"Popularly known for breakfast Cereals and Maggi Noodles, Nestle is the parent company for Kit Kat, MilkyBar, and Bar One. The famous Kit Kat bars are crisp wafer fingers encrusted in chocolate. The best chocolate of all times and loved by every age group.."
+    }
+      ,
+        {
+          "id": 6,
+          
+          "name": "Kit Kat",
+          "price": "85",
+          "photograph":"https://i.postimg.cc/bJYnqfJ3/61y6-Fnw5h-KL-SX522-PIbundle-21-Top-Right-0-0-AA522-SH20.jpg"
+          
+        },
+        {
+          "id": 7,
+  
+        "name": "Milky Bar",
+        "price": "45",
+        "photograph":"https://i.postimg.cc/wjQTgWrB/41p8-QHPcu-WL.jpg"
+        
+      },
+      
+      {
+        "id": 8,
+  
+        "name": " Bar One",
+        "price": "55",
+        "photograph":"https://i.postimg.cc/ydFLbZd2/100011395-5-nestle-chocolate-bar-bar-one-nougat-caramel-filled.webp"
+        
+      },
+
+    {
+      "id": 9,
+        "name": "Amul Chocolates",
+        "photograph": "https://i.postimg.cc/j5TpzdqX/EGGT9vc-U8-AEGd7d.jpg",
+        "about":"The chocolate list would be incomplete without Amul chocolates. Found in 1956 in Gujarat, Amul is one of India's oldest and most popular dairy companies. The company produces bundled milk and dairy items. They produce dark chocolate, and green tea Extricate chocolate.",
+        "price":"150"
+    },
+          { "id": 10,
+            "name": "Amul Chocozoo",
+            "price": "65",
+            "photograph":"https://i.postimg.cc/J7cCvyHN/amul-chocozoo.jpg"
+            
+          },
+          {
+            "id": 11,
+    
+          "name": "Amul Wafer Chocolate",
+          "price": "45",
+          "photograph":"https://i.postimg.cc/cC8ZtT4P/81s-F0bfh-SOL-SX522.jpg"
+          
+        },
+        
+        {
+          "id": 12,
+    
+          "name": " Amul Rejoice Assorted Chocolates",
+          "price": "55",
+          "photograph":"https://i.postimg.cc/WbW61nJs/8901262230124.jpg"
+          
+        },
+      {
+        "id": 13,
+          "name": " Mars Chocolates",
+          "photograph": "https://i.postimg.cc/yxRBPr4h/41on-HLj-OSi-L-AC-SY580.jpg",
+          "about":"Mars brand manufactures chocolates, chewing gums, and mints. The brand also makes Snickers Chocolate Bars, with caramel, peanuts, and milk.",
+          "price":"150"
+      },
+            {
+              "id": 14,
+              "name": "Snickers",
+              "price": "55",
+              "photograph":"https://i.postimg.cc/Vk3bTZ2H/snickers-chocolate-bar-500x500.webp"
+              
+            },
+            {
+              "id": 15,
+      
+            "name": "Twix",
+            "price": "35",
+            "photograph":"https://i.postimg.cc/jjLZ61Pg/5174rf-QNe-IL-SX466.jpg"
+            
+          },
+          
+          {
+            "id": 16,
+      
+            "name": " Mars bar",
+            "price": "55",
+            "photograph":"https://i.postimg.cc/VkPG84y5/mars-original-51g-single-1637919074-1637919490.webp"
+            
+          },
+      
+        {
+          "id": 17,
+          "name": "Ferrero Rocher Chocolates",
+          "photograph": "https://i.postimg.cc/x1v8Y8ZG/product-gfx-12x.jpg",
+          "about":"Ferrero Rocher is among the top brands of chocolates the world over. They also produce Kinderjoy (kids’ favourite chocolate brands). Ferrero Rocher chocolates have a unique taste with layers of crunchy and creamy hazelnut filling..",
+          "price":"150"
+        },
+            {
+              "id": 18,
+              "name": "Lotus Dark Chocolate",
+              "price": "150",
+              "photograph":"https://i.postimg.cc/J7cCvyHN/amul-chocozoo.jpg"
+              
+            },
+            {
+              "id": 19,
+      
+            "name": "Lotus Milk Chocolate",
+            "price": "155",
+            "photograph":"https://i.postimg.cc/cC8ZtT4P/81s-F0bfh-SOL-SX522.jpg"
+            
+          },
+          
+          {
+            "id": 20,
+      
+            "name": " Choco Drops, Chuckles",
+            "price": "165",
+            "photograph":"https://i.postimg.cc/WbW61nJs/8901262230124.jpg"
+            
+          }
+          ,
+        {
+          "id": 21,
+          "name": "Campco Chocolates",
+          "photograph": "https://i.postimg.cc/y6LrQTYc/campco-choclate-09.jpg",
+          "about":"With manufacturing facilities located in Karnataka, Campco chocolate is one of India’s most popular brands of chocolate. The cocoa is harvested locally to maintain the original chocolate taste. The most popular chocolate options under the Campco brand are; Campo dark chocolate, Campo soft and silky chocolate, and Campo sugar-free chocolate.."
+        },
+            {
+              "id": 22,
+              "name": "Campo dark chocolate",
+              "price": "150",
+              "photograph":"https://i.postimg.cc/hjct96Hc/fac8ff28-79f3-497d-ba87-5dd02e56e4e2.jpg"
+              
+            },
+            {
+              "id": 23,
+      
+            "name": "campco soft chocolate",
+            "price": "155",
+            "photograph":"https://i.postimg.cc/JhRfK846/41gm6-RWtv-WL-d9c44109-9024-47a8-8dd4-a25f081e4bca.jpg"
+            
+          },
+          
+          {
+            "id": 24,
+      
+            "name": " silky chocolate, ",
+            "price": "165",
+            "photograph":"https://i.postimg.cc/zv3bg4g3/8825ff8279546558d6123d8a388f7ec8.jpg"
+            
+          }
+          ,
+        {
+          "id": 25,
+          "name": "Lotus Chocolates",
+          "photograph": "https://i.postimg.cc/rmV2WFQk/7.jpg",
+          "about":"Lotus chocolate name is known for making the best quality chocolates. ",
+          "price":"150"
+        }
+           
+        
+      
+  ]
+

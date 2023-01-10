@@ -1,0 +1,163 @@
+
+<!-- Content section 1-->
+
+<!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img   src="https://rare-gallery.com/uploads/posts/531539-chocolate-4k.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Order For Best chocolates</h5>
+          <p>Premium Quality Chocolates Are Available Order Now</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://sciencemeetsfood.org/wp-content/uploads/2020/06/Abbey_chocolate_featured.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dark Chocolate is Heaven</h5>
+          <p>Have Darkest Chocolate Which Makes Your Mind Blowing </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.whoa.in/download/chocolate-and-dry-fruit-hd-wallpaper" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Chocolates Everyday </h5>
+          <p>Every chocolate is like phases in life... Some are crunchy, some are soft, some are nutty, but all of them are delicious.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section id="scroll">
+    <div class="container px-5">
+
+<hr style="color:blanchedalmond">
+<h4>
+    <p id="eat">"Put “eat chocolate” at the top of your list of things to do today. That way, at least you’ll get one thing done.
+        <br>
+        Chocolate is the first luxury. It has so many things wrapped up in it: deliciousness in the moment, childhood memories, and that grin-inducing feeling of getting a reward for being good"
+    </p>
+    <hr style="color:blanchedalmond">
+
+</h4> -->
+
+
+<section id="cardProduct" class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+      <div id="card" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          <div id="cord" *ngFor="let chocolate of productDetails  | filter:search: 'name' " class="col mb-5 ">
+              <div id="cards" class="card h-100">
+                  <!-- Product image-->
+                  <img style="height: 350px;" class="card-img-top" src="{{chocolate.photograph}}" alt="..." />
+                  <!-- Product details-->
+                  <div style="height: 150px;" class="card-body p-2 ">
+                      <div class="text-center">
+                          <!-- Product name-->
+                          <h3 id="ccc" class="fw-bolder">{{chocolate.name}}</h3>
+                        price:{{chocolate.price}}
+
+
+
+                          <!-- Product price-->
+                      </div>
+                  </div>
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="view-product/{{chocolate.id}}">View options</a></div>
+                  </div>
+              </div>
+          </div>
+         
+        
+                  </div>
+
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img id="cho" class="img-fluid rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEvmPvVXzXztTcMVDFN02grqhzw71gCdI5i6xAWsAA1jlfeOcL2Jpd7-6H2TIrfVY6rY&usqp=CAU" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div id="dark" class="p-5">
+                    <h2  class="display-4">I love nothing more than a good, rich, dark chocolate</h2>
+                    <p>If you like dark chocolate, chances are you will be cultured, classy and sophisticated. You also don't sit on the fence when it comes to opinions you stand your ground and tend to get a tad dramatic. Full of energy, you make strong decisions. Your relationships are also strong, and you love being around other people..
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 2-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div  class="p-5"><img id="choco"class="img-fluid rounded-circle" src="https://i.pinimg.com/originals/38/07/4d/38074d70915ba279f1c48888cf04aaef.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">Nothing is more romantic than chocolate.</h2>
+                    <p>White chocolate is a chocolate confection, pale ivory in color, made from cocoa butter, sugar, milk solids and sometimes vanilla. White chocolate does not contain cocoa solids, which are found in other types of chocolate, such as milk chocolate and dark chocolate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 3-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div id="milk" class="p-5"><img id="chocos" class="img-fluid rounded-circle" src="https://wallpaperaccess.com/full/3518156.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 id="h2" class="display-4">I love chocolate. I like milk and dark chocolate, but definitely not white</h2>
+                    <p id="vvv" >Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. Chocolate was originally sold and consumed as a beverage in pre-Columbian times, and upon its introduction to Western Europe. Major milk chocolate producers include Ferrero, Hershey, Mondelez, Mars and Nestlé..</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="container">
+        <div  class="intro">
+            <!-- <img id="jin" class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://c.ndtvimg.com/2021-02/52tfo8bg_chocolate-_625x300_09_February_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350" alt="..." /> -->
+            <div  class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span id="aboutcc" class="section-heading-upper">Fresh Chocolate And Worth Eating</span>
+                </h2>
+                <p class="mb-3">World Wide Chocolate is a distributor of premium chocolate, confectioneries and specialty foods from around the world. We pride ourselves in offering both exceptional products and customer service at highly competitive prices. Dedicated staff, ease-of-use, and premium offerings is what to expect when ordering from World Wide Chocolate. We strive to offer exceptional products sourced globally, packaged to meet your needs and delivered to your door or facility as quickly as possible. We appreciate the opportunity to serve your chocolate needs and will work hard to earn and maintain your trust as a valuable procurement resource.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <section id="aboutchoco" class="page-section clearfix">
+    <div class="container">
+        <div  class="intro">
+            <img id="jin" class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="https://c.ndtvimg.com/2021-02/52tfo8bg_chocolate-_625x300_09_February_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350" alt="..." />
+            <div  class="intro-text left-0 text-center bg-faded p-5 rounded">
+                <h2 class="section-heading mb-4">
+                    <span id="aboutcc" class="section-heading-upper">Fresh Chocolate And Worth Eating</span>
+                </h2>
+                <p class="mb-3">World Wide Chocolate is a distributor of premium chocolate, confectioneries and specialty foods from around the world. We pride ourselves in offering both exceptional products and customer service at highly competitive prices. Dedicated staff, ease-of-use, and premium offerings is what to expect when ordering from World Wide Chocolate. We strive to offer exceptional products sourced globally, packaged to meet your needs and delivered to your door or facility as quickly as possible. We appreciate the opportunity to serve your chocolate needs and will work hard to earn and maintain your trust as a valuable procurement resource.</p>
+            </div>
+        </div>
+    </div>
+</section> -->
+

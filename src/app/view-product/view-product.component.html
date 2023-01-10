@@ -1,0 +1,66 @@
+<header id="xx" class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start">
+                    <h1 class="display-5 fw-bolder text-white mb-2">{{restBody.name}}</h1>
+                    <p class="lead fw-normal text-white-50 mb-4">{{restBody.about}}</p>
+                    <h5 class="display-5 fw-bolder text-white mb-2"> Price:{{restBody.price}}</h5>
+
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                        <p class="mt-2">
+                            <!-- <button id="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                aria-expanded="false" aria-controls="collapseExample"><span></span>
+                                Check Products
+                            </button> -->
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body bg-dark text-light">
+                                <div class="mt-2" *ngFor="let item of restBody.Chocolate">
+                                    <h5> {{item['name']}}</h5>
+                                    Price: {{item['price']}}
+
+                                    <img style="height: 500px;" src="{{item['photograph']}}" alt="">
+                                    
+                                    <button (click)="addToCart(restBody)" class="btn btn-outline-dark" type="button">
+                                        <i class="fa-solid fa-cart-shopping fs-3"></i>
+
+                                    </button> &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <button (click)="addToCart(restBody)" type="button" id="bt">Add to cart</button> 
+                                      <button id="bb">Add to whishlist</button>  -->
+
+                                     
+                                </div>
+                            </div>
+                         </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="imgg" class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img
+                    class="img-fluid rounded-3 my-5" src="{{restBody.photograph}}" alt="..." />
+                    
+                    
+                    <button (click)="addToCart(restBody)" class="btn btn-outline-dark" type="button">
+                        <i class="fa-solid fa-cart-shopping fs-3"></i>
+
+                    </button> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <button (click)="addToCart(restBody)" type="button" id="bt">Add to cart</button> 
+                    
+                    <p  class="mt-2">               
+                        <button id="vv" class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Review
+                        </button>    
+                         </p>         
+                         <div class="collapse" id="collapseExample">
+                          <div class="card card-body bg-dark text-light">
+                              <div class="mt-2" *ngFor="let item of restBody.reviews">
+                                  <h5> {{item['name']}} ( {{item['date']}} ) </h5>
+                                  <h6>Rating: {{item['rating']}}</h6>
+                                  <p>Comments: {{item['comments']}}</p>
+                              </div>
+                          </div>
+                        </div> 
+                </div>
+        </div>
+    </div>
+</header>
